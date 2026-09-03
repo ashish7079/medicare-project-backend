@@ -204,9 +204,9 @@ public class SecurityConfig {
                 registry.addMapping("/**")
 
                         .allowedOrigins(
-
-                                "http://localhost:5173"
-                        )
+    "http://localhost:5173",
+    "https://medicare-project-frontened.vercel.app"
+)
 
                         .allowedMethods("*")
 
