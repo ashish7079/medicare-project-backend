@@ -17,8 +17,10 @@ import com.example.demo.Repositorys.MessageRepos;
 import com.example.demo.model.Messsage;
 
 @RestController
-@CrossOrigin(origins =
-        "http://localhost:5173")
+@CrossOrigin(origins = {
+    "http://localhost:5173",
+    "https://medicare-project-frontened.vercel.app"
+})
 public class MessageController {
 
     private final
